@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tourcos"
+version = "0.1.0"
+description = ""
+authors = ["rashidiy <bubbless7456@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.2.0"
+python-dotenv = "^1.0.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.23"}
+aiosqlite = "^0.19.0"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

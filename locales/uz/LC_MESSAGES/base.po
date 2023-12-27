@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-12-27 12:05+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: handlers/commands.py:28
+msgid "Select language"
+msgstr "Tilni tanlang"
+
+#: handlers/menu.py:16
+msgid "Contacts"
+msgstr "Savol berish"
+
+#: handlers/menu.py:18
+msgid "OpenSystem"
+msgstr "Tizimga kirish"
+
+#: handlers/menu.py:19 handlers/settings.py:17
+msgid "Settings"
+msgstr "Sozlamalar"
+
+#: handlers/menu.py:24
+msgid "Hello"
+msgstr "Hush kelibsiz"
+
+#: handlers/menu.py:29
+msgid "Phone Contacts"
+msgstr "Fikr-mulohaza uchun +998 999 99 99 raqamiga qo'ng'iroq qiling yoki @admin ga yozing"
+
+#: handlers/register.py:28
+msgid "Share my phone"
+msgstr "Kontaktingizni yuboring ☎️"
+
+#: handlers/register.py:30
+msgid "Send your phone number"
+msgstr "Telefon raqamingizni kiriting\n(misol: +998901234567)"
+
+#: handlers/settings.py:13
+msgid "Count of users"
+msgstr "Botdagi foydalanuvchilar soni"
+
+#: handlers/settings.py:14
+msgid "Edit Phone"
+msgstr "Raqamni o'zgartirish"
+
+#: handlers/settings.py:15
+msgid "Back"
+msgstr "Orqaga"
+
+#: handlers/settings.py:15
+msgid "Language"
+msgstr "Til"
+

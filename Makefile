@@ -1,5 +1,5 @@
 collect_translations:
-	 /usr/share/doc/python3.11/examples/i18n/pygettext.py -d base -o locales/base.pot handlers/*
+	 pygettext3.11 -d base -o locales/base.pot handlers/*
 
 mo:
 	msgfmt -o locales/uz/LC_MESSAGES/base.mo locales/uz/LC_MESSAGES/base

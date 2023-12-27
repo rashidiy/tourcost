@@ -27,5 +27,3 @@ async def prepare_menu(update: Union[Message, CallbackQuery], state: FSMContext)
 @DP.message(F.text.in_(get_all_versions('Contacts')))
 async def contacts(msg: Message):
     await msg.answer(_('Phone Contacts'))
-
-print(get_all_versions('Contacts'))

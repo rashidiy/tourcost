@@ -1,7 +1,7 @@
 import os
 from gettext import gettext as _
 
-from aiogram import F
+from aiogram import F, Bot
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery, Message, ReplyKeyboardMarkup, KeyboardButton
 from database.models import User
@@ -50,3 +50,10 @@ async def edit_phone(msg: Message, user: User, state: FSMContext):
     await user.commit()
     await prepare_menu(msg, state)
     await state.clear()
+    await send_lead(msg.bot, user)
+
+
+async def send_lead(bot: Bot, user):
+    channel_id = -1002142180396
+    text = f'{user.full_name}\n{user.phone}\n{user.user_id}'
+    await bot.send_message(channel_id, text)
